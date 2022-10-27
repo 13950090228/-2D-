@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T08:56:41.918Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" version="20.5.1" etag="Hns8vT2qI7FaWLO7FLOF" type="github"><diagram id="8VxC5HbbckZaZ5rsE9Hw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-27T09:55:36.264Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="Z69580Db0pywGsoQPfpl" version="20.5.1" type="github">
+  <diagram id="8VxC5HbbckZaZ5rsE9Hw" name="第 1 页">
+    <mxGraphModel dx="1718" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0WVkIM8SMCK67iMs7IcG-1" value="&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;SoundbanksInfoXmlHelper&lt;/font&gt;&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=290;height=70;" vertex="1" parent="1">
+          <mxGeometry x="70" y="630" width="690" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="0WVkIM8SMCK67iMs7IcG-2" value="字段" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="100" y="730" width="600" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0WVkIM8SMCK67iMs7IcG-3" value="XmlDocument xmlDoc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="0WVkIM8SMCK67iMs7IcG-2">
+          <mxGeometry y="26" width="600" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0WVkIM8SMCK67iMs7IcG-6" value="Dictionary&lt;string, uint&gt; temporaryBnkInfoDic；  临时的 bnk 信息，会被经常加载和卸载" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontColor=#330000;" vertex="1" parent="0WVkIM8SMCK67iMs7IcG-2">
+          <mxGeometry y="52" width="600" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0WVkIM8SMCK67iMs7IcG-7" value="Dictionary&lt;string, uint&gt; baseBnkInfoDic；  常驻的 bnk 信息，用于全局相关的 bnk 信息存放" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="0WVkIM8SMCK67iMs7IcG-2">
+          <mxGeometry y="78" width="600" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0WVkIM8SMCK67iMs7IcG-8" value="string xmlPath；   文件路径" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="0WVkIM8SMCK67iMs7IcG-2">
+          <mxGeometry y="104" width="600" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0WVkIM8SMCK67iMs7IcG-11" value="方法" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="100" y="910" width="600" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="0WVkIM8SMCK67iMs7IcG-12" value="SetXmlPath； 设置文件路径" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="0WVkIM8SMCK67iMs7IcG-11">
+          <mxGeometry y="26" width="600" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0WVkIM8SMCK67iMs7IcG-16" value="ReadXml； 读取 Xml 文件进内存" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="0WVkIM8SMCK67iMs7IcG-11">
+          <mxGeometry y="52" width="600" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0WVkIM8SMCK67iMs7IcG-17" value="LoadBaseBnkInfo； 加载全局通用的 bnk 信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="0WVkIM8SMCK67iMs7IcG-11">
+          <mxGeometry y="78" width="600" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0WVkIM8SMCK67iMs7IcG-18" value="LoadAllBnkInfo； 全量加载所有 bnk 信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="0WVkIM8SMCK67iMs7IcG-11">
+          <mxGeometry y="104" width="600" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0WVkIM8SMCK67iMs7IcG-21" value="LoadTemporaryBnkInfo； 加载临时 bnk 信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="0WVkIM8SMCK67iMs7IcG-11">
+          <mxGeometry y="130" width="600" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0WVkIM8SMCK67iMs7IcG-22" value="GetEventId； 获取事件 ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="0WVkIM8SMCK67iMs7IcG-11">
+          <mxGeometry y="156" width="600" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0WVkIM8SMCK67iMs7IcG-23" value="GetEventSign； 获取事件 Sign" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="0WVkIM8SMCK67iMs7IcG-11">
+          <mxGeometry y="182" width="600" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0WVkIM8SMCK67iMs7IcG-24" value="ClearTemporaryBnkInfo； 清理 TemporaryBnkInfoDic" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="0WVkIM8SMCK67iMs7IcG-11">
+          <mxGeometry y="208" width="600" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0WVkIM8SMCK67iMs7IcG-25" value="TearDown； 清理所有缓存" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="0WVkIM8SMCK67iMs7IcG-11">
+          <mxGeometry y="234" width="600" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
